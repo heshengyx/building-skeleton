@@ -1,7 +1,6 @@
-/* 
- * Copyright (c) 2015, S.F. Express Inc. All rights reserved.
- */
 package com.house.building.param;
+
+import java.io.Serializable;
 
 /**
  * 描述：
@@ -15,6 +14,16 @@ package com.house.building.param;
  * @author 608279
  * @since 1.0
  */
-public class BuildingQueryParam {
-
+public class BuildingQueryParam implements Serializable {
+	
+	/**  */
+	private static final long serialVersionUID = -7030573523951102108L;
+	private String buildingName;
+	
+	public String getBuildingName() {
+		return buildingName;
+	}
+	public void setBuildingName(String buildingName) {
+		this.buildingName = buildingName;
+	}
 }

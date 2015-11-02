@@ -20,7 +20,7 @@ public class Building implements Serializable {
 	/**  */
 	private static final long serialVersionUID = 5051212720480835254L;
 	private String id;
-	private String name;
+	private String buildingName;
 	private String status;
 	private Date createTime;
 	private Date updateTime;
@@ -32,11 +32,11 @@ public class Building implements Serializable {
 	public void setId(String id) {
 		this.id = id;
 	}
-	public String getName() {
-		return name;
+	public String getBuildingName() {
+		return buildingName;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setBuildingName(String buildingName) {
+		this.buildingName = buildingName;
 	}
 	public String getStatus() {
 		return status;

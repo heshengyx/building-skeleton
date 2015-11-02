@@ -1,7 +1,7 @@
 package com.house.building.service;
 
 import com.house.building.entity.Building;
-import com.house.building.page.Page;
+import com.house.building.page.IPage;
 import com.house.building.param.BuildingQueryParam;
 
 /**
@@ -23,5 +23,5 @@ public interface IBuildingService {
 	int deleteById(String id);
 	Building getDataById(String id);
 	
-	Page<Building> query(BuildingQueryParam param);
+	IPage<Building> query(BuildingQueryParam param, int page, int rows);
 }

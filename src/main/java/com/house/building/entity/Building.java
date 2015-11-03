@@ -21,11 +21,32 @@ public class Building implements Serializable {
 	private static final long serialVersionUID = 5051212720480835254L;
 	private String id;
 	private String buildingName;
+	private String buildingYear;
+	private String buildingFloor;
+	private String address;
 	private String status;
 	private Date createTime;
 	private Date updateTime;
 	private String remarks;
 	
+	public String getBuildingYear() {
+		return buildingYear;
+	}
+	public void setBuildingYear(String buildingYear) {
+		this.buildingYear = buildingYear;
+	}
+	public String getBuildingFloor() {
+		return buildingFloor;
+	}
+	public void setBuildingFloor(String buildingFloor) {
+		this.buildingFloor = buildingFloor;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
 	public String getId() {
 		return id;
 	}

@@ -20,7 +20,7 @@ public interface IBuildingService {
 
 	int save(Building param);
 	int update(Building param);
-	int deleteById(String id);
+	void deleteById(String id);
 	Building getDataById(String id);
 	
 	IPage<Building> query(BuildingQueryParam param, int page, int rows);

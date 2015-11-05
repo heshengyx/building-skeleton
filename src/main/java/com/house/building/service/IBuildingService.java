@@ -19,7 +19,7 @@ import com.house.building.param.BuildingQueryParam;
 public interface IBuildingService {
 
 	int save(Building param);
-	int update(Building param);
+	void update(Building param);
 	void deleteById(String id);
 	Building getDataById(String id);
 	

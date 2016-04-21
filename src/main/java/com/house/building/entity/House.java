@@ -5,12 +5,23 @@ import java.util.Date;
 
 public class House implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -528732409800963930L;
 	private String id;
+	private String buildingUnitId;
 	private String status;
 	private Date createTime;
 	private Date updateTime;
 	private String remarks;
 	
+	public String getBuildingUnitId() {
+		return buildingUnitId;
+	}
+	public void setBuildingUnitId(String buildingUnitId) {
+		this.buildingUnitId = buildingUnitId;
+	}
 	public String getId() {
 		return id;
 	}

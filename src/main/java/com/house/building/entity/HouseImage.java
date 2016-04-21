@@ -5,12 +5,30 @@ import java.util.Date;
 
 public class HouseImage implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5632093237409910736L;
 	private String id;
+	private String houseId;
+	private String url;
 	private String status;
 	private Date createTime;
 	private Date updateTime;
 	private String remarks;
 	
+	public String getHouseId() {
+		return houseId;
+	}
+	public void setHouseId(String houseId) {
+		this.houseId = houseId;
+	}
+	public String getUrl() {
+		return url;
+	}
+	public void setUrl(String url) {
+		this.url = url;
+	}
 	public String getId() {
 		return id;
 	}

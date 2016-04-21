@@ -3,18 +3,6 @@ package com.house.building.entity;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * 描述：
- * 
- * <pre>HISTORY
- * ****************************************************************************
- *  ID   DATE           PERSON          REASON
- *  1    2015年10月30日      608279         Create
- * ****************************************************************************
- * </pre>
- * @author 608279
- * @since 1.0
- */
 public class Building implements Serializable {
 
 	/**  */
